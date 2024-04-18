@@ -1,0 +1,69 @@
+/* ---------- Clear browser defaults ---------- */
+
+html,
+body,
+div,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* ---------- About Ketsy Prophete Ribbon (Using Grid) ----------*/
+
+.cssgrid-blurb {
+    display: grid;
+    grid-template-columns: 1fr 500px 175px;
+    padding: 1% 0 1% 25%;
+    column-gap: 5%;
+    background-color: #5ce1e624;
+    margin-bottom: 35px;
+}
+.mypicture {
+    width: 230px;
+    height: 175px;
+    border: black 6px solid;
+}
+.display-6:hover {
+    font-size: 45px;
+}
+.text-muted:hover {
+    font-size: 20px;
+}
+
+
+/* ---------- Skills Section (Using Flexbox) ----------*/
+
+.flexbox-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+.list {
+    border-top: 1px solid rgba(155, 149, 149, 0.478);
+    border-bottom: 1px solid rgba(155, 149, 149, 0.478);
+    width: 300px;
+    
+}
+.list:hover {
+    background-color: #5ce1e62c;
+}
+
+
+/* ---------- Advice for the Day (Using Flexbox) ----------*/
+.flexbox-advice{
+    display: flex;
+    justify-content: center;    
+}
+
+.mygithub{
+    margin: 15px;
+}
+
